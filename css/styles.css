@@ -1,0 +1,40 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+.box-container{
+    background-image: url(../img/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+.box-container-child{
+    max-width: 120rem;
+    height: 100%;
+    margin:auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.box-barra nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FDFEFE;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+.box-text h1 {
+    color: #FDFEFE;
+    font-size: 6rem;
+}
+.box-text h1 small {
+    color: #FDFEFE;
+    font-size: 2rem;
+    opacity: .5;
+}
