@@ -1,27 +1,54 @@
-html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+/**General**/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1rem = 10px**/
+    
 }
-.box-container{
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+/**General**/
+
+
+/**Tools**/
+.centerbox {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.columnas {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1.5rem;
+}
+/**Tools**/
+
+/**Header**/
+.box-container {
     background-image: url(../img/fondo.jpg);
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     min-height: 60rem;
 }
-.box-container-child{
-    max-width: 120rem;
-    height: 100%;
-    margin:auto auto;
+
+.box-container-child {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
 }
-.box-barra{
+
+.box-barra {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+
 .box-barra nav a {
     text-decoration: none;
     text-transform: uppercase;
@@ -29,12 +56,113 @@ html{
     font-size: 2rem;
     margin-right: 1.5rem;
 }
+
 .box-text h1 {
     color: #FDFEFE;
     font-size: 6rem;
 }
+
 .box-text h1 small {
     color: #FDFEFE;
     font-size: 2rem;
     opacity: .5;
 }
+/**Header**/
+
+/**Section 1**/
+
+.box-color {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-pink {
+    background-color: #EB4859;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+    padding: 60px 60px 40px 97px;
+}
+
+.box-blue {
+    background-color: #3CC7D7;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    padding: 60px 60px 40px 97px;
+}
+
+.box-of-text p {
+    color: #FDFEFE;
+    font-size: 2rem;
+    opacity: .5;
+}
+
+.box-of-text h2 {
+    color: #FDFEFE;
+    font-size: 2rem;
+}
+/**Section 1**/
+
+/**Section 2**/
+
+.box-section {
+    background-image: url(../img/bg-pinkpoint.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box-2 {
+    display: flex;
+}
+
+.box-1 h1 {
+    color: #3B3B58;
+    font-size: 4rem;
+}
+
+.box-1 p {
+    font-size: 2rem;
+    opacity: .5;
+}
+
+.box-2-child h2 {
+    color: #3B3B58;
+    font-size: 2.5rem;
+}
+
+.box-2-child p {
+    font-size: 2rem;
+    opacity: .5;
+}
+
+/**Section 2**/
+
+/**Section 3**/
+    .section2 { 
+        background-color: #b8b8c5;
+    }
+    .box-section2 h2 {
+        font-size: 3.5rem;
+        color: #3B3B58;
+        font-weight: 40rem;
+    }
+    .box-section2 p {
+        font-size: 2.2rem;
+        color: #94949E;
+
+    }
+    .cita{
+        background-color: #ffffff;
+        padding: 2rem;
+    }
+    
+/**Section 3**/

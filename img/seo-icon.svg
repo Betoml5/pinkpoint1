@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="78px" viewBox="0 0 82 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>SEO icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Updates" transform="translate(-139.000000, -1250.000000)">
+            <g id="SEO-icon" transform="translate(140.000000, 1251.000000)">
+                <path d="M0,56 L0,3.00738502 C0,1.34645213 1.33583665,0 3.0078125,0 L63.9921875,0 C65.6533565,0 67,1.34828267 67,3.00738502 L67,32" id="Rectangle-7" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M1,7 L66,7" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <g id="Group" transform="translate(32.000000, 28.000000)" stroke="#3B3B58" stroke-width="2">
+                    <path d="M35.7724118,32.6048338 L46.7503121,43.5827341 C47.7349978,44.5674198 47.7349978,46.1637626 46.7503121,47.1484484 C45.7656264,48.1331341 44.1692835,48.1331341 43.1845978,47.1484484 L29.6471209,33.6109714" id="Shape" stroke-linecap="round"></path>
+                    <circle id="Oval" cx="18.5347516" cy="18.9328879" r="18.4096352"></circle>
+                </g>
+                <polyline id="Line" stroke="#EB4859" stroke-width="2" stroke-linecap="round" points="36.8480409 51.1519591 49 39 60 50 76 34"></polyline>
+                <circle id="Oval-3" stroke="#EB4859" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" cx="49" cy="39" r="3"></circle>
+                <circle id="Oval-3" stroke="#EB4859" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" cx="60" cy="50" r="3"></circle>
+                <circle id="Oval-3" stroke="#EB4859" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" cx="76" cy="34" r="3"></circle>
+                <path d="M20,19 L53,19" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M20,23 L42,23" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M20,35 L29,35" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M20,39 L27,39" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M20,51 L26,51" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M20,55 L27,55" id="Line" stroke="#3B3B58" stroke-width="2" stroke-linecap="round"></path>
+                <rect id="Rectangle-8" fill="#EB4859" x="7" y="16" width="10" height="10"></rect>
+                <rect id="Rectangle-8" fill="#3CC7D7" x="7" y="32" width="10" height="10"></rect>
+                <rect id="Rectangle-8" fill="#3B3B58" x="7" y="48" width="10" height="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
